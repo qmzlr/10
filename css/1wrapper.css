@@ -1,0 +1,262 @@
+@font-face {
+   font-family: Roman;
+   src: url(/Font/helveticaneuelt_roman.ttf);
+}
+@font-face {
+   font-family: miracle;
+   src: url(/Font/Miracle\ Personal\ use.otf);
+}
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+   border: none;
+}
+
+a,
+a:link,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   font-size: inherit;
+   font-weight: inherit;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+img,
+svg {
+   max-width: 100%;
+   height: auto;
+}
+body,
+html {
+   height: 100%;
+   line-height: 1;
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   background-color: #313f38;
+}
+._container {
+   max-width: 1400px;
+   margin: 0px auto;
+   padding: 0 10px;
+   box-sizing: content-box;
+}
+
+/* --------------------Header----------------------*/
+.header {
+   position: absolute;
+   width: 100%;
+   left: 0;
+   top: 40px;
+   z-index: 50;
+}
+.header_container {
+   display: flex;
+   min-height: 24px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header_logo {
+   font-size: 20px;
+   font-family: Open Sans;
+   font-weight: 500;
+   color: #fffcf6;
+   z-index: 5;
+}
+.menu {
+}
+.menu_list {
+   display: flex;
+}
+.menu_item {
+}
+.menu_item:not(:last-child) {
+   margin: 0 70px 0 0;
+}
+.menu_item:last-child {
+   margin: 0 0 0 150px;
+}
+
+.menu_link {
+   color: #fffcf6;
+   font-size: 14px;
+   font-family: Open Sans;
+   line-height: 20px;
+}
+.regist {
+}
+
+.regist_link {
+   color: #fffcf6;
+   font-family: Open sans;
+   font-size: 14px;
+}
+
+.header_burger {
+   display: none;
+}
+
+
+/* ---------main */
+main {
+   flex: 1 1 auto;
+}
+.main_block {
+}
+.main-block_container {
+}
+
+.main-block_body {
+   padding: 112px 0 0 0;
+}
+.Present_BankHotel {
+}
+.text_bankhotel {
+   display: flex;
+   justify-content: space-between;
+}
+.BankHotel {
+   font-family: miracle;
+   font-size: 170px;
+   width: 755px;
+}
+.white {
+   color: #fffcf6;
+}
+.yellow {
+   color: #fcd043;
+}
+
+.Since {
+   display: flex;
+   width: 200px;
+   height: 70px;
+   align-items: center;
+   color: #fffcf6;
+   border-style: solid;
+   border-radius: 99px;
+   border-color: #fffcf6;
+   border-width: 1px;
+   font-size: 22px;
+   font-family: Roman;
+   margin: 10px 80px 0 0;
+}
+.svg {
+   margin: 0 25px 0 30px;
+}
+.text {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+.text_roooms {
+   font-family: Roman;
+   font-size: 18px;
+   color: #fcd043;
+   align-self: center;
+}
+.OB-bankhotel {
+   color: #fffcf6;
+   width: 350px;
+   font-size: 16px;
+   font-family: Open sans;
+   line-height: 26px;
+}
+.About {
+   width: 100%;
+   min-height: 900px;
+   position: relative;
+   margin: 50px 0 120px 0;
+}
+.ellipse {
+   position: absolute;
+   right: 336px;
+   top: 10px;
+   z-index: 0;
+}
+.vectorGorizont {
+   position: absolute;
+   top: 0;
+   right: 0px;
+}
+.vectorVertical {
+   position: absolute;
+   top: 10px;
+   right: 335px;
+}
+.img_about {
+   max-width: 240px;
+   position: absolute;
+   top: 100px;
+   right: 0;
+}
+.aboutText_Sun {
+   width: 115px;
+   position: absolute;
+   right: 200px;
+   top: 30px;
+}
+.img_about_Big {
+   max-width: 455px;
+   position: absolute;
+   top: 135px;
+   left: 0px;
+   z-index: 2;
+}
+.Text {
+   display: flex;
+}
+.about_Text {
+   display: block;
+   font-family: miracle;
+   font-size: 125px;
+   width: 405px;
+   height: 240px;
+   text-align: end;
+   z-index: 50;
+   margin: 185px 0 0 400px;
+}
+.hiqhQuality {
+   display: block;
+   width: 430px;
+   margin: 100px 0 0 600px;
+   font-size: 18px;
+   font-family: Open Sans;
+   color: #fffcf6;
+   line-height: 28px;
+}
+.hiqhQuality h1 {
+   font-size: 36px;
+   font-family: Open Sans;
+   color: #fffcf6;
+   padding: 0 0 40px 0;
+}

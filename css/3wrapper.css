@@ -1,0 +1,89 @@
+.Text_block_Best-Apartments {
+   z-index: 50;
+   padding: 0 0 0 20px;
+}
+.Text_block_Best-Apartments span {
+   width: 360px;
+   font-family: Open sans;
+   font-size: 16px;
+   display: block;
+   margin: 130px 0 0 0;
+   line-height: 20px;
+   
+
+}
+.Text_block_Best-Apartments h1 {
+   font-size: 125px;
+   font-family: miracle;
+   line-height: 105px;
+   margin: 100px 0 0 0;
+}
+
+.block_img_Best-Apartments {
+   position: relative;
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   margin: 0 0 35% 0;
+}
+.img_Best-Apartments {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+
+.block_our-gallery {
+}
+.block_h1-img {
+   display: flex;
+   justify-content: center;
+}
+.h1-img img{
+width: 100px;
+}
+.outimg{
+   display: flex;
+   justify-content: center;
+}
+.h1-img h1{
+   font-size: 125px;
+   font-family: miracle;
+   line-height: 105px;
+   padding: 50px 0 0 0;
+}
+.block_text-img {
+   display: flex;
+   justify-content: space-between;
+   padding: 70px 0 0 0;
+}
+.block_img_left{
+   position: relative;
+   width: 250px;
+
+}
+.img_left {
+object-fit: cover;
+}
+.Text_our-gallery {
+   text-align: center;
+   width: 470px;
+   font-size: 17px;
+   font-family: Open sans;
+   color: #fffcf6;
+   line-height: 28px;
+   margin: 0 15px 0 15px;
+}
+.block_img_right{
+ width: 250px;
+ object-position: bottom;
+}
+.img_right {
+object-position: right;
+}
+.block_gitImg-text {
+}
+.block_backHotel_img {
+}
+.img_text {
+}
