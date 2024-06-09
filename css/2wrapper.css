@@ -2,6 +2,7 @@
 .White_backgraund_wrapper {
    overflow: hidden;
    background-color: #fffcf6;
+   min-height: 20%;
 }
 
 .Rooms_Apartments h1 {
