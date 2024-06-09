@@ -110,8 +110,9 @@
    }
    .about_Text {
       font-size: 100px;
-      margin: 160px 0 0 100px;
+      margin: 160px 0 0 365px;
       z-index: 3;
+      width: 200px;
    }
    .hiqhQuality h1 {
       font-size: 28px;

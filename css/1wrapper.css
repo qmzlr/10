@@ -103,7 +103,7 @@ html {
    margin: 0 70px 0 0;
 }
 .menu_item:last-child {
-   margin: 0 0 0 150px;
+   margin: 0 0 0 200px;
 }
 
 .menu_link {
@@ -124,7 +124,6 @@ html {
 .header_burger {
    display: none;
 }
-
 
 /* ---------main */
 main {
@@ -239,11 +238,10 @@ main {
    display: block;
    font-family: miracle;
    font-size: 125px;
-   width: 405px;
+   width: 340px;
    height: 240px;
-   text-align: end;
    z-index: 50;
-   margin: 185px 0 0 400px;
+   margin: 185px 0 0 500px;
 }
 .hiqhQuality {
    display: block;

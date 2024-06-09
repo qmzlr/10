@@ -9,12 +9,10 @@
    display: block;
    margin: 130px 0 0 0;
    line-height: 20px;
-   
-
 }
 .Text_block_Best-Apartments h1 {
    font-size: 125px;
-   font-family: miracle;
+   font-family: "Courier New", Courier, monospace;
    line-height: 105px;
    margin: 100px 0 0 0;
 }
@@ -32,23 +30,22 @@
    left: 0;
 }
 
-
 .block_our-gallery {
 }
 .block_h1-img {
    display: flex;
    justify-content: center;
 }
-.h1-img img{
-width: 100px;
+.h1-img img {
+   width: 100px;
 }
-.outimg{
+.outimg {
    display: flex;
    justify-content: center;
 }
-.h1-img h1{
+.h1-img h1 {
    font-size: 125px;
-   font-family: miracle;
+   font-family: "Courier New", Courier, monospace;
    line-height: 105px;
    padding: 50px 0 0 0;
 }
@@ -57,13 +54,12 @@ width: 100px;
    justify-content: space-between;
    padding: 70px 0 0 0;
 }
-.block_img_left{
+.block_img_left {
    position: relative;
    width: 250px;
-
 }
 .img_left {
-object-fit: cover;
+   object-fit: cover;
 }
 .Text_our-gallery {
    text-align: center;
@@ -74,16 +70,63 @@ object-fit: cover;
    line-height: 28px;
    margin: 0 15px 0 15px;
 }
-.block_img_right{
- width: 250px;
- object-position: bottom;
+.block_img_right {
+   width: 250px;
+   object-position: bottom;
 }
 .img_right {
-object-position: right;
+   object-position: right;
 }
 .block_gitImg-text {
+   display: flex;
+   align-items: end;
+   gap: 130px;
+}
+
+.block_img_gitleft {
+   width: 220px;
+}
+.img_gitleft {
+}
+.block_Git_img-Text {
+   width: 690px;
+}
+.block_Git_img-Text > img {
+   margin: 0 0 70px 0;
+   background-size: cover;
+}
+.figure_text {
+   display: flex;
+   width: 450px;
+   align-items: center;
+}
+.figure_text img {
+   width: 50px;
+   margin: 0 30px 0 0;
+}
+.figure_text > span {
+   width: 350px;
+   font-size: 20px;
+   font-family: Open sans;
+   color: #fffcf6;
+   line-height: normal;
+   font-style: italic;
 }
 .block_backHotel_img {
+   padding: 130px 0 200px 0;
+   position: relative;
+}
+.text_absolut {
+   position: absolute;
+   font-size: 100px;
+   top: 130px;
+   right: 0px;
+   text-wrap: nowrap;
+   color: #4a554f;
 }
 .img_text {
+   position: absolute;
+   width: 335px;
+   top: 0;
+   right: 0;
 }
