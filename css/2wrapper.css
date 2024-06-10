@@ -1,13 +1,12 @@
-
 .White_backgraund_wrapper {
    overflow: hidden;
    background-color: #fffcf6;
    min-height: 20%;
 }
 
-.Rooms_Apartments h1 {
+.kj {
    font-size: 120px;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: "Courier New", Courier, monospace;
    line-height: 105px;
 }
 
@@ -18,10 +17,18 @@
    justify-content: space-between;
    line-height: normal;
 }
-.Rooms_Apartments span {
-   font-size: 16px;
+.Rooms_Apartments div{
    width: 260px;
+   position: relative;
+}
+.Rooms_Apartments div>span {
+   font-size: 16px;
    font-family: Open Sans;
+   position: absolute;
+   
+}
+.none_h1{
+   display: none;
 }
 .BackRoom_img {
    width: 570px;

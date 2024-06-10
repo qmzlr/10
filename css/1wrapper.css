@@ -190,6 +190,9 @@ main {
    font-family: Open sans;
    line-height: 26px;
 }
+.none_img{
+   display: none;
+}
 .About {
    width: 100%;
    min-height: 900px;
