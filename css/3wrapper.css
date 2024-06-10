@@ -113,21 +113,18 @@
    font-style: italic;
 }
 .block_backHotel_img {
-   padding: 130px 0 200px 0;
-   position: relative;
-   margin-bottom: 180px;
+   display: flex;
+   align-items: end;
+   text-align: center;
+   justify-content: space-between;
+   margin: 0 0 100px 0;
 }
 .text_absolut {
-   position: absolute;
    font-size: 100px;
-   top: 130px;
-   right: 0px;
-   text-wrap: nowrap;
    color: #4a554f;
+   text-align: center;
+   margin: 0 0 0 100px;
 }
 .img_text {
-   position: absolute;
    width: 335px;
-   top: 0;
-   right: 0;
 }
