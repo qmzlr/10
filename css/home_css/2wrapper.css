@@ -1,0 +1,78 @@
+.White_backgraund_wrapper {
+   overflow: hidden;
+   background-color: #fffcf6;
+   min-height: 20%;
+}
+
+.kj {
+   font-size: 120px;
+   font-family: "Courier New", Courier, monospace;
+   line-height: 105px;
+}
+
+.Rooms_Apartments {
+   margin: 200px 0 150px 0;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   line-height: normal;
+}
+.Rooms_Apartments div{
+   width: 260px;
+   position: relative;
+}
+.Rooms_Apartments div>span {
+   font-size: 16px;
+   font-family: Open Sans;
+   position: absolute;
+   
+}
+.none_h1{
+   display: none;
+}
+.BackRoom_img {
+   width: 570px;
+}
+.BackRoom_img_small {
+   width: 220px;
+   height: max-content;
+   padding: 50px 0 0 0;
+}
+.Block_Text_backRoom {
+   margin: 40px 30px 0 30px;
+   width: 335px;
+}
+.Since_BackRoom {
+   display: flex;
+   width: 200px;
+   height: 70px;
+   align-items: center;
+   color: #1b3b36;
+   border-style: solid;
+   border-radius: 99px;
+   border-color: #313f38;
+   border-width: 1px;
+   font-size: 22px;
+   font-family: Open sans;
+   margin: 10px 0 0 0;
+}
+.BackRoom_imgText {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 0 100px 0;
+}
+.Block_Text_backRoom h1 {
+   font-size: 36px;
+   font-family: Open Sans;
+   margin: 0 0 30px 0;
+}
+.Block_Text_backRoom span {
+   font-size: 18px;
+   line-height: 28px;
+   display: flex;
+   font-family: Open Sans;
+   text-align: justify;
+}
+.Text_Backroom {
+   margin: 100px 0 0 0;
+}

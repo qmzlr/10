@@ -1,0 +1,667 @@
+
+
+
+/*---нижняя часть c footer*/
+@media screen and (max-width: 1024px) and (min-width: 768px){
+   .gitin_sun{
+      margin: 0;
+   }
+   .block_getin-touch{
+      margin: 200px 0 0 0;
+      position: relative;
+   }
+   .gitin_sun > span{
+      font-size: 95px;
+      line-height: 95px;
+   }
+   .touch{
+      font-size: 95px;
+      line-height: 95px;
+   }
+   .img_getin-touch{
+      width: 200px;
+   }
+   .telefon > span{
+      font-size: 38px;
+      line-height: normal;
+   }
+   .h3{
+      font-size:18px ;
+      line-height: normal;
+      margin: 0 0 20px 0;
+   }
+   .span{
+      font-size: 13px;
+      line-height: 23px;
+   }
+   .media{
+      display: block;
+   }
+   .footer_block div:not(:last-child){
+      margin: 0 100px 0 0 ;
+   }
+   .footer_block{
+      margin: 0 10px 0 10px ;
+   }
+}
+
+@media screen and (max-width: 767px){
+   .block_getin-touch{
+      margin: 100px 0 0 0;
+      position: relative;
+   }
+   .gitin_sun > span{
+      font-size: 60px;
+      line-height: 60px;
+      margin-right: 5px;
+   }
+   .gitin_sun > img{
+      width: 36px;
+      height: 36px;
+   }
+   .gitin_sun{
+      margin: 0;
+   }
+   .touch{
+      font-size: 60px;
+      line-height: 60px;
+   }
+   .img_getin-touch{
+      width: 150px;
+      top: 50px;
+   }
+   .telefon{
+      margin: 100px 0 40px 0;
+   }
+   .telefon > span{
+      font-size: 30px;
+      line-height: 30px;
+   }
+   .span{
+      display: none;
+   }
+   .media{
+      display: none;
+   }
+   .footer_aboutus{
+      width: 50px;
+      max-width: none;
+   }
+   .footer_block div:not(:last-child){
+      margin: 0 40px 0 0 ;
+   }
+   .footer_block{
+      padding: 50px 0 30px 0;
+      display: flex;
+      justify-content: center;
+   }
+   .text-field{
+      display: none;
+   }
+   .h3{
+      display: none;
+   }
+   .h3_a{
+      display: block;
+      font-size:15px ;
+      line-height: normal;
+      margin: 0 0 20px 0;
+   }
+   .h3_a a{
+      color: inherit;
+   }
+}
+
+
+
+
+/*------apartament*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+   .Text_block_Best-Apartments h1 {
+      font-size: 100px;
+      font-weight: 400;
+      line-height: 80px;
+      text-align: left;
+      margin: 50px 0 0 0;
+   }
+
+   .Text_block_Best-Apartments span {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+   }
+
+   .block_img_Best-Apartments {
+      margin: 0 0 220px 0;
+   }
+
+   .h1-img img {
+      width: 70px;
+   }
+
+   .h1-img h1 {
+      font-size: 100px;
+      font-weight: 400;
+      line-height: 80px;
+      text-align: center;
+      padding: 30px 0 0 0;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .img_Best-Apartments {
+      display: none;
+
+   }
+   .block_img_Best-Apartments {
+      height: 900px;
+      background-image: url("/photo/mobile_apartmens.png");
+      background-size: cover;
+      background-position: bottom;
+      margin: 0 0 65px 0;
+   }
+   .Text_block_Best-Apartments {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      justify-content: flex-end;
+   }
+   .Text_block_Best-Apartments h1 {
+      font-size: 50px;
+      line-height: 50px;
+      width: 100%;
+   }
+   .Text_block_Best-Apartments span {
+      font-size: 16px;
+      line-height: normal;
+      margin: 0 0 70px 0;
+      width: 330px;
+   }
+
+   .h1-img h1{
+      text-align: center;
+      font-size: 60px;
+      line-height: 60px;
+      padding: 20px 0 0 0;
+
+   }
+   .h1-img img {
+      width: 70px;
+   }
+   .block_img_left, .block_img_right{
+      display: none;
+   }
+   .Text_our-gallery{
+      font-size:13px;
+      line-height: 23px;
+      width: 360px;
+   }
+   .block_text-img{
+      justify-content: center;
+   }
+   .block_img_gitleft{
+      display: none;
+   }
+   .main_img, .left_img-noproz, .right_img-noproz, .bathroom_proz{
+      display: block;
+   }
+   .block_Git_img-Text{
+      position: relative;
+
+   }
+   .img_gallery{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 0 50px 0;
+   }
+   .git_imt-text{
+      position: absolute;
+      right: 0;
+      top: 90px;
+      width: 200px;
+      opacity: 10%;
+   }
+   .main_img{
+      width: 200px;
+      margin: 200px 0 50px 0;
+      position: relative;
+      z-index: 50;
+   }
+   .block_Git_img-Text{
+      width: 100%;
+   }
+   .left_img-noproz{
+      width: 150px;
+      position: absolute;
+      left: 0;
+      top: 76px;
+   }
+   .right_img-noproz{
+      width: 150px;
+      position: absolute;
+      top: 0;
+      right: 0;
+   }
+   .bathroom_proz{
+      width: 200px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+   }
+   .block_text-img{
+      margin: 0 0 50px 0;
+   }
+   .block_backHotel_img{
+      display: none;
+   }
+   .block_Git_img-Text{
+      margin: 0 0 100px 0;
+   }
+   .figure_text img{
+      width: 36px;
+   }
+   .figure_text > span{
+      font-size: 14px;
+   }
+   .figure_text{
+      width: 400px;
+   }
+}
+
+/*--- все до apartament*/
+@media screen and (max-width: 767px) {
+   .Rooms_Apartments {
+      display: block;
+      margin: 100px 0 50px 0;
+   }
+
+   .kj {
+      display: none;
+   }
+
+   .none_h1 {
+      display: block;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 54px;
+      font-weight: 400;
+      line-height: 54px;
+      text-align: left;
+      margin: 0 0 50px 0;
+   }
+
+   .Rooms_Apartments div {
+      width: 100%;
+   }
+
+   .Rooms_Apartments div > span {
+      position: relative;
+      font-family: Open sans;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.4px;
+      text-align: left;
+   }
+
+   .Since_BackRoom,
+   .BackRoom_img_small {
+      display: none;
+   }
+
+   .BackRoom_imgText {
+      display: flex;
+      flex-wrap: wrap-reverse;
+   }
+
+   .BackRoom_img {
+      width: 100%;
+   }
+
+   .Block_Text_backRoom {
+      width: 100%;
+   }
+
+   .text {
+      display: block;
+   }
+
+   .OB-bankhotel {
+      position: relative;
+   }
+
+   .LK {
+      display: none;
+   }
+
+   .none_img {
+      display: block;
+      width: 100%;
+   }
+
+   .BankHotel {
+      font-size: 80px;
+   }
+
+   .Since {
+      display: none;
+   }
+
+   .Present_BankHotel {
+      text-align: center;
+   }
+
+   .text_bankhotel {
+      margin: 0 0 24px 0;
+   }
+
+   .text_roooms {
+      font-size: 14px;
+      margin: 0 0 48px 0;
+   }
+
+   .OB-bankhotel {
+      font-size: 14px;
+   }
+
+   .about_Text {
+      margin: 50px 0 0 0;
+      font-size: 100px;
+      line-height: 100px;
+      width: 160px;
+      height: 190px;
+   }
+
+   .aboutText_Sun,
+   .img_about {
+      display: none;
+   }
+
+   .img_about_Big {
+      display: block;
+      position: relative;
+      margin: 70px 0 70px 0;
+      top: 0;
+      left: 0;
+      max-width: 100%;
+      height: auto;
+   }
+
+   .hiqhQuality {
+      margin: 0;
+      width: 100%;
+   }
+
+   .hiqhQuality h1 {
+      font-size: 30px;
+      line-height: 30px;
+   }
+
+   .hiqhQuality p {
+      font-size: 13px;
+      line-height: 23px;
+   }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+   .BackRoom_imgText {
+      justify-content: end;
+   }
+
+   .Rooms_Apartments h1 {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 100px;
+      font-weight: 400;
+      line-height: 80px;
+   }
+
+   .Rooms_Apartments div,
+   .Since_BackRoom,
+   .BackRoom_img_small {
+      display: none;
+   }
+
+   .Text_Backroom {
+   }
+
+   .Text_Backroom h1 {
+      font-family: Open sans;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 43.85px;
+      letter-spacing: 0.03em;
+      text-align: left;
+   }
+
+   .Text_Backroom span {
+      font-family: Open sans;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 23px;
+      text-align: left;
+   }
+
+   .BackRoom_img {
+      width: 355px;
+      height: min-content;
+      margin: 0 0 0 80px;
+   }
+
+   .BankHotel {
+      font-size: 120px;
+      width: 550px;
+   }
+
+   .Since {
+      display: none;
+   }
+
+   .OB-bankhotel {
+      position: absolute;
+      right: 0;
+      top: 120px;
+      width: 200px;
+      font-size: 13px;
+   }
+
+   .text_roooms {
+      font-size: 14px;
+   }
+
+   .img_about {
+      width: 160px;
+   }
+
+   .about_Text {
+      font-size: 100px;
+      margin: 160px 0 0 365px;
+      z-index: 3;
+      width: 200px;
+   }
+
+   .hiqhQuality h1 {
+      font-size: 28px;
+   }
+
+   .hiqhQuality {
+      width: 250px;
+      font-size: 13px;
+      line-height: 23px;
+      margin: 50px 0 0 490px;
+
+      z-index: 50;
+   }
+
+   .img_about_Big {
+      width: 360px;
+   }
+
+   .aboutText_Sun {
+      right: 125px;
+      top: 35px;
+   }
+
+   .vectorVertical svg {
+      height: 830px;
+   }
+
+   .Text_our-gallery {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 23px;
+      text-align: center;
+      width: 360px;
+      margin: 0 100px 0 0;
+   }
+
+   .block_text-img {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .block_img_right {
+      display: none;
+   }
+
+   .block_img_right img {
+      width: 100%;
+      height: 100%;
+   }
+
+   .block_Git_img-Text {
+      width: 480px;
+   }
+
+   .block_img_gitleft {
+      width: 130px;
+      margin: 0 0 50px 0;
+   }
+
+   .block_img_left {
+      width: 200px;
+   }
+
+   .figure_text > span {
+      font-size: 16px;
+   }
+
+   .figure_text img {
+      width: 36px;
+   }
+
+   .img_text {
+      width: 250px;
+   }
+
+   .text_absolut {
+      font-size: 60px;
+
+      margin: 0 0 0 150px;
+   }
+}
+
+/* ----------------header -------------*/
+@media screen and (max-width: 767px) {
+   .header_burger {
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+   }
+
+   .header_burger span {
+      content: "";
+      position: absolute;
+      background-color: white;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top: 9px;
+      transition: all 0.3s ease 0s;
+   }
+
+   .header_burger::before,
+   .header_burger::after {
+      content: "";
+      background-color: white;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s ease 0s;
+   }
+
+   .header_burger::before {
+      top: 0;
+   }
+
+   .header_burger::after {
+      bottom: 0;
+   }
+
+   .menu {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #313f38;
+      padding: 130px 10px 20px 10px;
+      transition: all 0.3s ease 0s;
+      overflow: auto;
+   }
+
+   .menu.active {
+      top: 0;
+   }
+
+   .menu_link {
+      font-size: 30px;
+   }
+
+   .header_logo {
+      font-size: 25px;
+   }
+
+   .menu_item:last-child {
+      margin: 0;
+   }
+
+   .menu_list {
+      display: block;
+   }
+
+   .menu_item:not(:last-child) {
+      margin: 0 0 50px 0;
+   }
+
+   .header_burger.active::before {
+      transform: rotate(45deg);
+      top: 9px;
+   }
+
+   .header_burger.active::after {
+      transform: rotate(-45deg);
+      bottom: 9px;
+   }
+
+   .header_burger.active span {
+      transform: scale(0);
+   }
+
+   body.lock {
+      overflow: hidden;
+   }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+   .menu_item:not(:last-child) {
+      margin: 0 35px 0 0;
+   }
+
+   .menu_item:last-child {
+      margin: 0 0 0 40px;
+   }
+}
