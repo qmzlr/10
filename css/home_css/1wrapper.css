@@ -4,27 +4,24 @@
 }
 @font-face {
    font-family: miracle;
-   src: url(/Font/Miracle\ Personal\ use.otf);
+   src: url("/Font/Miracle Personal use.otf");
 }
 *,
 *::before,
 *::after {
    box-sizing: border-box;
-   padding: 0px;
-   margin: 0px;
+   padding: 0;
+   margin: 0;
    border: none;
 }
-
 a,
 a:link,
 a:visited {
    text-decoration: none;
 }
-
 a:hover {
    text-decoration: none;
 }
-
 h1,
 h2,
 h3,
@@ -65,9 +62,14 @@ html {
 }
 ._container {
    max-width: 1400px;
-   margin: 0px auto;
+   margin: 0 auto;
    padding: 0 10px;
    box-sizing: content-box;
+}
+.White_backgraund_wrapper {
+   overflow: hidden;
+   background-color: #fffcf6;
+   min-height: 20%;
 }
 
 /* --------------------Header----------------------*/
@@ -84,10 +86,9 @@ html {
    align-items: center;
    justify-content: space-between;
 }
-
 .header_logo {
    font-size: 20px;
-   font-family: Open Sans;
+   font-family: Open Sans, sans-serif;
    font-weight: 500;
    color: #fffcf6;
    z-index: 5;
@@ -105,35 +106,24 @@ html {
 .menu_item:last-child {
    margin: 0 0 0 200px;
 }
-
 .menu_link {
    color: #fffcf6;
    font-size: 14px;
-   font-family: Open Sans;
+   font-family: Open Sans, sans-serif;
    line-height: 20px;
 }
-.regist {
-}
-
 .regist_link {
    color: #fffcf6;
-   font-family: Open sans;
+   font-family: Open sans, sans-serif;
    font-size: 14px;
 }
-
 .header_burger {
    display: none;
 }
-
 /* ---------main */
 main {
    flex: 1 1 auto;
 }
-.main_block {
-}
-.main-block_container {
-}
-
 .main-block_body {
    padding: 112px 0 0 0;
 }
@@ -144,7 +134,7 @@ main {
    justify-content: space-between;
 }
 .BankHotel {
-   font-family: miracle;
+   font-family: miracle, serif;
    font-size: 170px;
    width: 755px;
 }
@@ -154,7 +144,6 @@ main {
 .yellow {
    color: #fcd043;
 }
-
 .Since {
    display: flex;
    width: 200px;
@@ -166,7 +155,7 @@ main {
    border-color: #fffcf6;
    border-width: 1px;
    font-size: 22px;
-   font-family: Roman;
+   font-family: Roman, serif;
    margin: 10px 80px 0 0;
 }
 .svg {
@@ -178,7 +167,7 @@ main {
    margin-bottom: 60px;
 }
 .text_roooms {
-   font-family: Open sans;
+   font-family: "Open Sans", sans-serif;
    font-size: 18px;
    color: #fcd043;
    align-self: center;
@@ -187,7 +176,7 @@ main {
    color: #fffcf6;
    width: 350px;
    font-size: 16px;
-   font-family: Open sans;
+   font-family: Open sans, serif;
    line-height: 26px;
 }
 .none_img{
@@ -208,7 +197,7 @@ main {
 .vectorGorizont {
    position: absolute;
    top: 0;
-   right: 0px;
+   right: 0;
 }
 .vectorVertical {
    position: absolute;
@@ -231,7 +220,7 @@ main {
    max-width: 455px;
    position: absolute;
    top: 135px;
-   left: 0px;
+   left: 0;
    z-index: 2;
 }
 .Text {
@@ -239,7 +228,7 @@ main {
 }
 .about_Text {
    display: block;
-   font-family: miracle;
+   font-family: miracle, serif;
    font-size: 125px;
    width: 340px;
    height: 240px;
@@ -251,13 +240,13 @@ main {
    width: 430px;
    margin: 100px 0 0 600px;
    font-size: 18px;
-   font-family: Open Sans;
+   font-family: Open sans, sans-serif;
    color: #fffcf6;
    line-height: 28px;
 }
 .hiqhQuality h1 {
    font-size: 36px;
-   font-family: Open Sans;
+   font-family: Open sans, sans-serif;
    color: #fffcf6;
    padding: 0 0 40px 0;
 }

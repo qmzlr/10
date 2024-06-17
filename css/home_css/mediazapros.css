@@ -1,119 +1,140 @@
 
-
-
 /*---нижняя часть c footer*/
-@media screen and (max-width: 1024px) and (min-width: 768px){
-   .gitin_sun{
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+   .gitin_sun {
       margin: 0;
    }
-   .block_getin-touch{
+
+   .block_getin-touch {
       margin: 200px 0 0 0;
       position: relative;
    }
-   .gitin_sun > span{
+
+   .gitin_sun > span {
       font-size: 95px;
       line-height: 95px;
    }
-   .touch{
+
+   .touch {
       font-size: 95px;
       line-height: 95px;
    }
-   .img_getin-touch{
+
+   .img_getin-touch {
       width: 200px;
    }
-   .telefon > span{
+
+   .telefon > span {
       font-size: 38px;
       line-height: normal;
    }
-   .h3{
-      font-size:18px ;
+
+   .h3 {
+      font-size: 18px;
       line-height: normal;
       margin: 0 0 20px 0;
    }
-   .span{
+
+   .span {
       font-size: 13px;
       line-height: 23px;
    }
-   .media{
+
+   .media {
       display: block;
    }
-   .footer_block div:not(:last-child){
-      margin: 0 100px 0 0 ;
+
+   .footer_block div:not(:last-child) {
+      margin: 0 100px 0 0;
    }
-   .footer_block{
-      margin: 0 10px 0 10px ;
+
+   .footer_block {
+      margin: 0 10px 0 10px;
    }
 }
 
-@media screen and (max-width: 767px){
-   .block_getin-touch{
+@media screen and (max-width: 767px) {
+   .block_getin-touch {
       margin: 100px 0 0 0;
       position: relative;
    }
-   .gitin_sun > span{
+
+   .gitin_sun > span {
       font-size: 60px;
       line-height: 60px;
-      margin-right: 5px;
+      margin-right: 0;
    }
-   .gitin_sun > img{
-      width: 36px;
-      height: 36px;
+
+   .gitin_sun > img {
+      width: 30px;
+      height: 30px;
    }
-   .gitin_sun{
+
+   .gitin_sun {
       margin: 0;
    }
-   .touch{
-      font-size: 60px;
-      line-height: 60px;
+
+   .touch {
+      font-size: 50px;
+      line-height: 50px;
    }
-   .img_getin-touch{
+
+   .img_getin-touch {
       width: 150px;
       top: 50px;
    }
-   .telefon{
+
+   .telefon {
       margin: 100px 0 40px 0;
    }
-   .telefon > span{
+
+   .telefon > span {
       font-size: 30px;
       line-height: 30px;
    }
-   .span{
+
+   .span {
       display: none;
    }
-   .media{
+
+   .media {
       display: none;
    }
-   .footer_aboutus{
+
+   .footer_aboutus {
       width: 50px;
       max-width: none;
    }
-   .footer_block div:not(:last-child){
-      margin: 0 40px 0 0 ;
+
+   .footer_block div:not(:last-child) {
+      margin: 0 40px 0 0;
    }
-   .footer_block{
+
+   .footer_block {
       padding: 50px 0 30px 0;
       display: flex;
       justify-content: center;
    }
-   .text-field{
+
+   .text-field {
       display: none;
    }
-   .h3{
+
+   .h3 {
       display: none;
    }
-   .h3_a{
+
+   .h3_a {
       display: block;
-      font-size:15px ;
+      font-size: 15px;
       line-height: normal;
       margin: 0 0 20px 0;
    }
-   .h3_a a{
+
+   .h3_a a {
       color: inherit;
    }
 }
-
-
-
 
 /*------apartament*/
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -128,7 +149,7 @@
    .Text_block_Best-Apartments span {
       font-size: 16px;
       font-weight: 400;
-      line-height: 21.6px;
+      line-height: 22px;
       text-align: left;
    }
 
@@ -154,13 +175,15 @@
       display: none;
 
    }
+
    .block_img_Best-Apartments {
       height: 900px;
-      background-image: url("/photo/mobile_apartmens.png");
+      background-image: url("/photo/home/mobile_apartmens.png");
       background-size: cover;
       background-position: bottom;
       margin: 0 0 65px 0;
    }
+
    .Text_block_Best-Apartments {
       width: 100%;
       display: flex;
@@ -168,11 +191,13 @@
       align-content: space-between;
       justify-content: flex-end;
    }
+
    .Text_block_Best-Apartments h1 {
       font-size: 50px;
       line-height: 50px;
       width: 100%;
    }
+
    .Text_block_Best-Apartments span {
       font-size: 16px;
       line-height: normal;
@@ -180,94 +205,114 @@
       width: 330px;
    }
 
-   .h1-img h1{
+   .h1-img h1 {
       text-align: center;
       font-size: 60px;
       line-height: 60px;
       padding: 20px 0 0 0;
 
    }
+
    .h1-img img {
       width: 70px;
    }
-   .block_img_left, .block_img_right{
+
+   .block_img_left, .block_img_right {
       display: none;
    }
-   .Text_our-gallery{
-      font-size:13px;
+
+   .Text_our-gallery {
+      font-size: 13px;
       line-height: 23px;
       width: 360px;
    }
-   .block_text-img{
+
+   .block_text-img {
       justify-content: center;
    }
-   .block_img_gitleft{
+
+   .block_img_gitleft {
       display: none;
    }
-   .main_img, .left_img-noproz, .right_img-noproz, .bathroom_proz{
+
+   .main_img, .left_img-noproz, .right_img-noproz, .bathroom_proz {
       display: block;
    }
-   .block_Git_img-Text{
+
+   .block_Git_img-Text {
       position: relative;
 
    }
-   .img_gallery{
+
+   .img_gallery {
       position: relative;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       margin: 0 0 50px 0;
    }
-   .git_imt-text{
+
+   .git_imt-text {
       position: absolute;
       right: 0;
       top: 90px;
       width: 200px;
       opacity: 10%;
    }
-   .main_img{
+
+   .main_img {
       width: 200px;
       margin: 200px 0 50px 0;
       position: relative;
       z-index: 50;
    }
-   .block_Git_img-Text{
+
+   .block_Git_img-Text {
       width: 100%;
    }
-   .left_img-noproz{
+
+   .left_img-noproz {
       width: 150px;
       position: absolute;
       left: 0;
       top: 76px;
    }
-   .right_img-noproz{
+
+   .right_img-noproz {
       width: 150px;
       position: absolute;
       top: 0;
       right: 0;
    }
-   .bathroom_proz{
+
+   .bathroom_proz {
       width: 200px;
       position: absolute;
       bottom: 0;
       left: 0;
    }
-   .block_text-img{
+
+   .block_text-img {
       margin: 0 0 50px 0;
    }
-   .block_backHotel_img{
+
+   .block_backHotel_img {
       display: none;
    }
-   .block_Git_img-Text{
+
+   .block_Git_img-Text {
       margin: 0 0 100px 0;
    }
-   .figure_text img{
+
+   .figure_text img {
       width: 36px;
    }
-   .figure_text > span{
+
+   .figure_text > span {
       font-size: 14px;
    }
-   .figure_text{
+
+   .figure_text {
       width: 400px;
    }
 }
@@ -299,10 +344,10 @@
 
    .Rooms_Apartments div > span {
       position: relative;
-      font-family: Open sans;
+      font-family:"Open Sans", sans-serif;
       font-size: 12px;
       font-weight: 400;
-      line-height: 14.4px;
+      line-height: 14px;
       text-align: left;
    }
 
@@ -427,16 +472,16 @@
    }
 
    .Text_Backroom h1 {
-      font-family: Open sans;
+      font-family:"Open Sans", sans-serif;
       font-size: 36px;
       font-weight: 400;
-      line-height: 43.85px;
+      line-height: 44px;
       letter-spacing: 0.03em;
       text-align: left;
    }
 
    .Text_Backroom span {
-      font-family: Open sans;
+      font-family: "Open Sans", sans-serif;
       font-size: 13px;
       font-weight: 400;
       line-height: 23px;
@@ -622,7 +667,7 @@
    }
 
    .header_logo {
-      font-size: 25px;
+      font-size: 16px;
    }
 
    .menu_item:last-child {

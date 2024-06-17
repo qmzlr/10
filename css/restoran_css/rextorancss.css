@@ -1,0 +1,134 @@
+* {
+   color: #fffcf6;
+}
+
+.block_up-restaurant {
+}
+
+.block_up-restaurant > h1 {
+   font-size: 150px;
+   line-height: 130px;
+   font-family: "Courier New", Courier, monospace;
+   margin: 0 0 150px 0;
+}
+
+.text_safe-restaurant {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 0 150px 0;
+}
+
+.text_safe-restaurant h1 {
+   width: 370px;
+   font-size: 50px;
+   line-height: normal;
+   font-family: "JetBrains Mono Light", sans-serif;
+}
+
+.text_safe-restaurant span {
+   width: 400px;
+   margin: 0 120px 0 0;
+   font-size: 18px;
+   line-height: 28px;
+   font-family: "JetBrains Mono Light", sans-serif;
+}
+
+.sun_restaurant {
+   position: absolute;
+   top: -60px;
+   right: 500px;
+   width: 90px;
+}
+
+.img_restaurant {
+   display: flex;
+   justify-content: space-between;
+}
+
+.left_rest-img {
+
+   width: 67%;
+   height: 100%;
+}
+
+.right_rest-img {
+
+   width: 32%;
+   height: 100%;
+}
+
+.text_down-img {
+   margin: 60px 0 200px 0;
+}
+.text_down-img h1{
+   font-size: 36px;
+   line-height: normal;
+   font-family: "JetBrains Mono Light", sans-serif;
+   margin: 0 0 40px 0;
+}
+.text_down-img span{
+   font-family: "JetBrains Mono Light", sans-serif;
+   font-size: 18px;
+   line-height: 28px;
+   display: block;
+   width: 490px;
+}
+
+.block_down-restaurant {
+
+}
+.block_down-restaurant>h1 {
+   display: block;
+   width:770px;
+   font-size: 40px;
+   line-height: 50px;
+   margin: 0 0 0 auto;
+   font-family: "JetBrains Mono Light", sans-serif;
+}
+
+.down_img-text {
+   margin: 100px 0 0 0;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.left_img-restaurant {
+   width: 330px;
+}
+.left_img-restaurant span{
+   display: block;
+   font-size: 18px;
+   line-height: normal;
+   font-family: "JetBrains Mono Light", sans-serif;
+   margin: 50px 0 0 0;
+}
+.r_i_r_d {
+
+}
+
+.right_img-restaurant {
+   width: 650px;
+}
+
+.r_i_r_up {
+
+}
+
+.right_text {
+   margin: 100px 0 0 0;
+}
+.right_text h1 {
+   font-size: 36px;
+   line-height: normal;
+   font-family: "JetBrains Mono Light", sans-serif;
+}
+.right_text span{
+   display: block;
+   margin: 40px 0 0 0;
+   width: 500px;
+   font-size: 18px;
+   line-height: 28px;
+   font-family: "JetBrains Mono Light", sans-serif;
+}

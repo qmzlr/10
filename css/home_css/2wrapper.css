@@ -23,7 +23,7 @@
 }
 .Rooms_Apartments div>span {
    font-size: 16px;
-   font-family: Open Sans;
+   font-family: Open sans, sans-serif;
    position: absolute;
    
 }
@@ -53,7 +53,7 @@
    border-color: #313f38;
    border-width: 1px;
    font-size: 22px;
-   font-family: Open sans;
+   font-family: Open sans, sans-serif;
    margin: 10px 0 0 0;
 }
 .BackRoom_imgText {
@@ -63,14 +63,14 @@
 }
 .Block_Text_backRoom h1 {
    font-size: 36px;
-   font-family: Open Sans;
+   font-family: Open sans, sans-serif;
    margin: 0 0 30px 0;
 }
 .Block_Text_backRoom span {
    font-size: 18px;
    line-height: 28px;
    display: flex;
-   font-family: Open Sans;
+   font-family: Open sans, sans-serif;
    text-align: justify;
 }
 .Text_Backroom {
