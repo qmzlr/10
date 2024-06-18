@@ -1,0 +1,245 @@
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+   .block_up-restaurant {
+   }
+
+   .block_up-restaurant > h1 {
+      font-size: 120px;
+      line-height: 80px;
+      margin: 0 0 150px 0;
+   }
+
+   .text_safe-restaurant {
+      gap: 20px;
+   }
+
+   .text_safe-restaurant h1 {
+      width: 370px;
+      font-size: 30px;
+      line-height: normal;
+   }
+
+   .text_safe-restaurant span {
+      width: 330px;
+      margin: 0 20px 0 0;
+      font-size: 13px;
+      line-height: 23px;
+   }
+
+   .sun_restaurant {
+      position: absolute;
+      top: -80px;
+      right: 20px;
+      width: 90px;
+      transform: rotate(45deg);
+   }
+
+   .text_down-img h1 {
+      font-size: 36px;
+      line-height: normal;
+      font-family: "JetBrains Mono Light", sans-serif;
+      margin: 0 0 40px 0;
+   }
+
+   .text_down-img span {
+      font-size: 14px;
+      line-height: 23px;
+      width: 490px;
+   }
+
+
+   .block_down-restaurant > h1 {
+      width: 670px;
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 0 0 auto;
+
+   }
+
+   .down_img-text {
+      margin: 100px 0 0 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+   }
+
+   .left_img-restaurant {
+      width: 330px;
+   }
+
+   .left_img-restaurant span {
+      display: block;
+      font-size: 16px;
+      line-height: normal;
+      font-family: "JetBrains Mono Light", sans-serif;
+      margin: 50px 0 0 0;
+   }
+
+   .r_i_r_d {
+
+   }
+
+   .right_img-restaurant {
+      width: 650px;
+   }
+
+   .r_i_r_up {
+
+   }
+
+   .right_text {
+      margin: 100px 0 0 0;
+   }
+
+   .right_text h1 {
+      width: 440px;
+      margin: 0 0 0 auto;
+      font-size: 34px;
+      line-height: normal;
+      font-family: "JetBrains Mono Light", sans-serif;
+   }
+
+   .right_text span {
+      display: block;
+      margin: 40px 0 0 auto;
+      width: 440px;
+      font-size: 13px;
+      line-height: 23px;
+   }
+   .block_getin-touch{
+    margin: 200px 0 0 0;
+   }
+   .telefon{
+      margin: 50px 0 100px 0;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .block_up-restaurant {
+   }
+
+   .block_up-restaurant > h1 {
+      width: 100%;
+      font-size: 70px;
+      line-height: 70px;
+      margin: 0 0 70px 0;
+   }
+
+   .text_safe-restaurant {
+      display: block;
+      margin: 0 0 70px 0;
+   }
+
+   .text_safe-restaurant h1 {
+      width: 370px;
+      font-size: 24px;
+      line-height: 20px;
+      margin: 0 0 100px 0;
+   }
+
+   .text_safe-restaurant span {
+      display: block;
+      width: 320px;
+      margin: 0 0 0 auto;
+      font-size: 13px;
+      line-height: 23px;
+   }
+
+   .sun_restaurant {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      width: 70px;
+      transform: rotate(45deg);
+   }
+   .img_restaurant{
+      display: block;
+   }
+   .left_rest-img{
+      display: none;
+   }
+   .right_rest-img{
+      width: 100%;
+      height: 100%;
+   }
+   .text_down-img{
+      margin: 70px 0 140px 0;
+   }
+
+   .text_down-img h1 {
+      font-size: 30px;
+      line-height: normal;
+      font-family: "JetBrains Mono Light", sans-serif;
+      margin: 0 0 20px 0;
+   }
+
+   .text_down-img span {
+      font-size: 13px;
+      line-height: 23px;
+      width: 330px;
+   }
+
+
+   .block_down-restaurant > h1 {
+      width: 100%;
+      font-size: 28px;
+      line-height: 28px;
+      margin: 0 0 0 auto;
+
+   }
+
+   .down_img-text {
+      margin: 100px 0 0 0;
+      display: flex;
+      flex-wrap: wrap-reverse;
+      gap: 70px;
+   }
+
+   .left_img-restaurant {
+      width: 100%;
+      margin: 0 155px 0 0;
+   }
+
+   .left_img-restaurant span {
+      display: block;
+      font-size: 13px;
+      line-height: normal;
+      font-family: "JetBrains Mono Light", sans-serif;
+      margin: 30px 0 0 0;
+   }
+
+   .r_i_r_d {
+
+   }
+
+   .right_img-restaurant {
+      width: 100%;
+   }
+
+   .r_i_r_up {
+      min-height: 270px;
+      object-position: right;
+      object-fit: cover;
+   }
+
+   .right_text {
+      margin: 70px 0 0 0;
+   }
+
+   .right_text h1 {
+      width: 100%;
+      margin: 0 0 0 auto;
+      font-size: 28px;
+      line-height: normal;
+      font-family: "JetBrains Mono Light", sans-serif;
+   }
+
+   .right_text span {
+      display: block;
+      margin: 20px 0 0 0;
+      width: 100%;
+      font-size: 13px;
+      line-height: 23px;
+   }
+
+}
